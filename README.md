@@ -3,7 +3,7 @@ Test DND
 
 Run with the command line on the application folder:
 
-"symfony server:start"
+symfony server:start
 
 
 Write the command line (with "path_to_csv is a path to a csv)
