@@ -1,7 +1,9 @@
 # DNDTest
 Test DND
 
-Run with the command line: symfony server:start On the application folder
+Run with the command line:
+symfony server:start
+On the application folder
 
 Write the command line (with "path_to_csv is a path to a csv)
 php bin/console csvToGrid path_to_csv json
