@@ -1,6 +1,10 @@
 # DNDTest
 Test DND
 
+First you should install the dependencies
+
+composer install
+
 Run with the command line on the application folder:
 
 symfony server:start
