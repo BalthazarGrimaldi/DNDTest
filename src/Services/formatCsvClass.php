@@ -52,6 +52,7 @@ class formatCsvClass
                 }
             }
         }
+
         return $csv;
     }
 }

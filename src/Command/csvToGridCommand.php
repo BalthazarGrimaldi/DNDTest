@@ -18,6 +18,11 @@ class csvToGridCommand extends Command
     // the name of the command (the part after "bin/console")
     protected static $defaultName = 'csvToGrid';
 
+    /**
+     * Undocumented function
+     *
+     * @return void
+     */
     protected function configure(): void
     {
         $this
@@ -27,7 +32,13 @@ class csvToGridCommand extends Command
             // ...
         ;
     }
-
+    /**
+     * Undocumented function
+     *
+     * @param InputInterface $input
+     * @param OutputInterface $output
+     * @return integer
+     */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         /** @var Object */
